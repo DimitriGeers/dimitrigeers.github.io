@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>"Cryptography"</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Header -->
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+
+      <div class="information-panel">
+          <h1><u>Crypto! But not the financial kind:</u></h1>
+          <p>
+            There are many ways to obscure messages and other data. In our history we've seen many techniques to keep our
+            data safe from prying eyes. Currently, our passwords are kept safe by quasi-unbreakable algorithms and itelligently distributed keys that would
+            take a quantum computer to break (within a reasonable amount of time) or a group of regular computers several lifetimes to crack.
+          </p>
+          <p> An early form of encryption was the <em>"Caesar Cipher"</em>, which shifted the original characters by a secretly agreed upon amount of steps in the alphabet.
+          </p>
+            <div>
+              <img src='images/Caesar-cipher.svg' width="28%" height="75%" style='float: Left; padding:5px;'/>
+              <p>
+                This image shows how all letters can be substituted by shifting them to the left. Although this
+                is not very hard to crack, given some time.
+                <br>
+                newer ciphers increased their security, for example, by also adding letter-combinations to the character-set.
+                This increases the 26-letter alphabet to 676 letters. Given enough computing power and linguistic analysis, even <em>this</em>
+                cipher is crack-able if you don't include a pre-shared, random key.
+              </p>
+            </div>
+            <p>
+              At this time, a simple cipher would not be sufficient to keep your data secure. Brilliant minds
+              in the field of mathematics, engineering and computer science have come up with some truly amazing algorithms and systems
+              to make sure no-one (save a few brilliant crackers) can access your private messages.
+              <br>
+              <p></p>
+              Here are some commonly used ones:
+              <ul>
+                <li>3DES - Used by companies like Microsoft and Mozilla</li>
+                <li>RSA - Used for SSH authentication and SSL-encryption</li>
+                <li>AES - Algorithm by Belgian design, easily implemented in hardware and restricted enviroments</li>
+                <li>Blowfish - Free-to-use algorithm that is popular in crypto-software</li>
+                <li>Twofish - for low resource devices, such as SIM-cards</li>
+              </ul>
+            </p>
+
+      </div>
+
+      <!-- Upper snowflake with link to "About me page" -->
+      <a href="about-me.html">
+        <img class="about-me-image" src="images/snowflake.svg" width="160" height="50" onclick="DoSomething();" />
+        <h1 class="about-me-label">About me</h1>
+      </a>
+
+      <!-- Middle snowflake with link to Old me page -->
+      <a href="old-me.html">
+        <img class="old-me-image" src="images/snowflake.svg" width="160" height="50" onclick="DoSomething();" />
+        <h1 class="old-me-label">The old me</h1>
+      </a>
+
+      <!-- Lower snowflake with link to Cryptography.html -->
+      <a href="technical.html">
+        <img class="technical-image" src="images/snowflake.svg" width="160" height="50" onclick="DoSomething();" />
+        <h1 class="technical-label">Cryptography</h1>
+      </a>
+    </div>
+    <!-- Footer -->
+    <footer>Copyright - Dimitri Geers - 2021</footer>
+  </body>
+</html>

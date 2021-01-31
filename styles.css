@@ -1,0 +1,130 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Brush Script MT', cursive;
+}
+
+footer{
+position: absolute;
+bottom:0;
+right:0;
+font-size: 1.1em;
+padding-right: 10px
+}
+
+nav a{
+  position:absolute;
+  right: 0;
+  padding-right: 10px;
+  color: white;
+  font-size: 2vw;
+}
+.container .information-panel ul {
+  line-height: 50%
+}
+
+.container .information-panel li {
+list-style:none;
+background-image: url("images/lock.png");
+background-repeat: no-repeat;
+background-position: left center;
+background-size: 20px;
+padding:10px 0px 10px 40px;
+}
+
+
+.container{
+  background-image: url("images/winter-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .about-me-image {
+  position: absolute;
+  left: 2%;
+  top: 10%;
+  height: 15%;
+  width: 15%;
+}
+
+.container .old-me-image {
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  height: 15%;
+  width: 15%;
+}
+
+.container .technical-image {
+  position: absolute;
+  left: 2%;
+  top: 50%;
+  height: 15%;
+  width: 15%;
+}
+
+.container .about-me-label {
+  position:absolute;
+  font-size: 2vw;
+  left: 13.5%;
+  top: 14.5%;
+  height: 15%;
+  width: 15%;
+  color:#637875;
+}
+
+.container .old-me-label {
+  position:absolute;
+  font-size: 2vw;
+  left: 12.5%;
+  top: 34.5%;
+  height: 15%;
+  width: 15%;
+  color:#637875;
+}
+
+.container .technical-label {
+  position:absolute;
+  font-size: 2vw;
+  left: 13.5%;
+  top: 54.5%;
+  height: 15%;
+  width: 15%;
+  color:#637875;
+}
+
+.container .intro-picture{
+  position: absolute;
+  top: 27%;
+  left: 25%;
+  height: 25%;
+  width: 15%;
+}
+
+.container .information-panel{
+  position: absolute;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 1vw;
+  padding: 10px;
+  left: 30%;
+  top: 10%;
+  width: 58%;
+  height: 75%;
+  border: 1px solid black;
+}
+.container .information-panel h1{
+  font-family: 'Brush Script MT', cursive;
+  text-decoration: underline;
+}
+
+.welcome-panel{
+position: absolute;
+top: 25%;
+left: 43% ;
+font-size: 2em;
+text-align: center;
+}
